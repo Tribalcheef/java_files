@@ -7,14 +7,12 @@ private static final double Pi = 3.14;
 
 public static void main(String[] args) {
 	final int a = 10;
-	//a = 11;
-	
-	//cannot make a static reference to the non-static field Pi
+
 	System.out.println(Pi);
 	
 	System.out.println(a);
 	
-	// Cannot make a static reference to the non-static method add(int, int) from the type P2_Task02_ConstantsInJava
+	
 	add(1, 2);
 	
 	multi(1, 2);
@@ -25,8 +23,7 @@ public static void main(String[] args) {
 	
 }
 
-static int add(int a, int b) {
-	//sysout[ctr + space bar]
+static int add(int a, int b) 
 	System.out.println(a);
 	
 	System.out.println(Pi);
@@ -45,7 +42,7 @@ int a = 10;
 
 int add(int a, int b) {
 	
-	//System.out.println(Pi)
+	
 	
 	return (a + b);
 }
